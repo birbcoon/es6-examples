@@ -75,7 +75,13 @@ console.log('-------------');
 
 //Example 8 Array.filer
 console.log("Example 8: Array.filler");
+console.log("Filter movies only released in the 80s");
 
+const filterMovies = movies.filter(movie => (movie.year >=1980 && movie.year < 1990));
+
+console.table(filterMovies)
+
+console.log(filterMovies);
 console.log('-------------');
 
 //Example 9 Array.map
