@@ -46,6 +46,10 @@ console.log('-------------');
 //Example 2 Arrow functions
 console.log("Example 2: Arrow functions");
 
+console.log("arrowClass is an arrow function and I couldn't think of a better name");
+const arrowClass = (teacher) => `${teacher} is a professor of this arrow function`;
+
+console.log(arrowClass('Xu'));
 console.log('-------------');
 
 //Example 3 Destrunction Assignment
