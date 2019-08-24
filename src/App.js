@@ -65,6 +65,19 @@ console.log('-------------');
 
 //Example 6 Object.assign
 console.log("Example 6: Object.Assign");
+const birthday = {
+name: 'Tyler',
+age: 18,
+birthday: '23-08-2001'
+}
+
+const newBirthday = Object.assign({},birthday,{age: 34})
+
+console.log('These birthdays are the same:')
+console.log(birthday === newBirthday)
+
+console.log(birthday)
+console.log(newBirthday)
 
 console.log('-------------');
 
