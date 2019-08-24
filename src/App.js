@@ -81,6 +81,16 @@ console.log('-------------');
 //Example 9 Array.map
 console.log("Example 9: Array.map");
 
+console.log(movies);
+
+const movieRelease
+= movies.map(movie
+=> 
+`${movie.name} released in
+${movie.year}`);
+
+console.log(movieRelease)
+
 console.log('-------------');
 
 //Example 10 Array.slice
