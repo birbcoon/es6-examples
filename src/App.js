@@ -83,11 +83,8 @@ console.log("Example 9: Array.map");
 
 console.log(movies);
 
-const movieRelease
-= movies.map(movie
-=> 
-`${movie.name} released in
-${movie.year}`);
+const movieRelease = movies.map(movie => 
+`${movie.name} released in ${movie.year}`);
 
 console.log(movieRelease)
 
@@ -95,7 +92,18 @@ console.log('-------------');
 
 //Example 10 Array.slice
 console.log("Example 10: Array.slice");
+const characters = ['John Wick',
+'Duke Caboom', 
+'Neo', 'Don John', 
+'Matt', 'Constantine']
 
+console.log(characters)
+
+console.log('Slicing out the 3rd entry')
+
+const sliced = [...characters.slice(0,2),...characters.slice(3)]
+
+console.log(sliced)
 console.log('-------------');
 
 //Example 11 Array.reduce
