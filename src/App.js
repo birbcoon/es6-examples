@@ -55,7 +55,21 @@ console.log('-------------');
 
 //Example 4 Spread Operator
 console.log("Example 4: Spread Operator");
+console.log("adding these movies")
 
+const newMovies = [
+{name: "Toy Story 4", year: 
+2019, rating: "5 stars"},
+{name: "Always Be my Maybe", year:
+2019, rating: 
+"4 stars"},
+{name: 'Matrix 4', year: 
+2020, rating: "Unreleased"}
+]
+console.log(newMovies);
+
+const spreadMovies = [...movies,...newMovies]
+console.log(spreadMovies)
 console.log('-------------');
 
 //Example 5 Promises
