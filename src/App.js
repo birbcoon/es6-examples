@@ -54,7 +54,26 @@ console.log('-------------');
 
 //Example 3 Destrunction Assignment
 console.log("Example 3: Destruction Assignment");
+const job = {
+name: 'VSU',
+salary: 86754,
+boss: 'Bill Tench',
+year: 2019
+};
 
+let {name, salary} = job;
+
+console.log(`${name} is a job that has a salary of: $${salary}`);
+
+const actor = character =>`${character.actor} plays ${character.character}`;
+
+const character = {
+actor: 'Keanu Reeves',
+character: 'Ted Theodore Logan',
+movie: 'Bill & Ted'
+};
+
+console.log(actor(character));
 console.log('-------------');
 
 //Example 4 Spread Operator
@@ -77,9 +96,22 @@ console.log(spreadMovies)
 console.log('-------------');
 
 //Example 5 Promises
-console.log("Example 5: Promises");
+const 
+getFakeMembers = count => new Promise((resolves,rejects) => {
+const api = `https://api.randomuser.me/?nat=US&results=${count}`
 
-console.log('-------------');
+const request = new XMLHttpRequest()
+
+request.open('GET', api)
+
+request.onload = () => (request.status === 200) ? resolves(JSON.parse(request.response).results):request.onerror = (err) => rejects(err)
+request.send()
+})
+
+getFakeMembers(5).then(
+members => {
+console.log("Example 5: Promises. This appears at the end as it waits for the promise to be fulfilled or rejected before the code runs");
+console.log(members)},err => console.error(new Error("cannot load members from randomuser.me")))
 
 //Example 6 Object.assign
 console.log("Example 6: Object.Assign");
