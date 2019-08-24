@@ -69,7 +69,25 @@ console.log("Example 6: Object.Assign");
 console.log('-------------');
 
 //Example 7 Spread Operator
-console.log("Example 7: Spread Operator");
+console.log("Example 7: Object Spread Operator");
+
+const spreadBirthday= {
+name: 'Tyler',
+age: 18,
+birthday: '23-08-2001'
+}
+
+const newspreadBirthday = {
+...spreadBirthday,
+birthday: '31-10-2000'
+}
+
+console.log('These birthdays are the same:')
+console.log(spreadBirthday === newspreadBirthday)
+
+console.log(spreadBirthday)
+
+console.log(newspreadBirthday)
 
 console.log('-------------');
 
