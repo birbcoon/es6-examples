@@ -199,7 +199,9 @@ const arrayNums = [10,20,30,40,50,60,70,80,90,100,200,300,400,500]
 
 console.log(arrayNums)
 
-const totalNums = arrayNums.reduce((total,num) => {return total + num},0)
+const totalNums = arrayNums.reduce((total,num) => { 
+  console.log(`${total} + ${num} = ${total+num}`)
+  return total + num},0)
 
 console.log(totalNums)
 console.log('-------------');
