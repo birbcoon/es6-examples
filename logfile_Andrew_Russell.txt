@@ -1,0 +1,71 @@
+commit d06dab88e34de9ed5c8abd7b4cf007565f61f70c
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 16:05:10 2019 -0400
+
+    fixed example 11 to make the example more readable on how total is reached
+
+commit c7b16ba33f66b0355c0e73028deb37eed176a62c
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 16:00:29 2019 -0400
+
+    example 3 and 5 finished since 5 was the example from the book
+
+commit 338651c2dbeda630b658ea8797f2533da39f331e
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:50:58 2019 -0400
+
+    example 2 finished with a horrible varible name
+
+commit e0ed30034514378fbbd5c8411ea147e1f1725640
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:48:29 2019 -0400
+
+    example 4 added movies to movie object array with spread operator
+
+commit 7387e78f4d3c1c5fb2bb18faffd7e6e644f395c2
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:44:05 2019 -0400
+
+    example 6 finished using the same from 7 but object.assign
+
+commit 889d35705fcf5b53a5d2e66d851c58cd60604896
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:42:20 2019 -0400
+
+    example 7 finished
+
+commit b29a7ecf681326ca4eb9a6812e4723cecb52a724
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:31:50 2019 -0400
+
+    example 8 finished using movie objects
+
+commit e25abc4fdc4562dc6b8c758e675df36743b6fecb
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:25:38 2019 -0400
+
+    example 11 finished
+
+commit fb91a859f0e99c9d740820663b5410b8cd435122
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:23:59 2019 -0400
+
+    9 fixed and 10 finished
+
+commit 9f8bc77d31ef2809645eea6e9a717aede7fc04ec
+Author: Andy <russellandy98@gmail.com>
+Date:   Sat Aug 24 15:10:09 2019 -0400
+
+    Example 9 finished
+
+commit 7d93f58f3aaa0d484cdc4a853b2d2f9f0a7356bf
+Author: Andy <russellandy98@gmail.com>
+Date:   Thu Aug 22 16:15:15 2019 -0400
+
+    Setup console.log for examples and did example 1
+
+commit 23c56c9667b889224576f461f6b1be26ba28e057
+Author: Andy <russellandy98@gmail.com>
+Date:   Thu Aug 22 15:27:25 2019 -0400
+
+    Initial commit from Create React App
